@@ -169,7 +169,7 @@ layers:
   - Gui+*
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
   - $$mdi:apple-keyboard-shift$$
   - {t: '=', s: +}
   - {t: '-', s: _}
