@@ -67,11 +67,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   LAYER1:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - '&Scrnsht3'
   - '&Scrnsht4'
-  - '&Scrnsht5'
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
