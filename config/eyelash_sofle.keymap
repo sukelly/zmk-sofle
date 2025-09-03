@@ -59,6 +59,20 @@
             bindings = <&kp LGUI &kp LEFT_SHIFT &kp NUMBER_4>;
             label = "SCRNSHT4";
         };
+
+        Scrnsht5: Scrnsht5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LGUI &kp LEFT_SHIFT &kp NUMBER_5>;
+            label = "SCRNSHT5";
+        };
+
+        Scrnsht3: Scrnsht3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LGUI &kp LEFT_SHIFT &kp NUMBER_3>;
+            label = "SCRNSHT3";
+        };
     };
 
     keymap {
@@ -78,7 +92,7 @@
 
         layer_1 {
             bindings = <
-&trans      &trans           &trans          &trans           &Scrnsht4        &trans             &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans  &trans
+&trans      &trans           &trans          &Scrnsht3        &Scrnsht4        &Scrnsht5          &mmv MOVE_UP     &trans           &trans           &trans      &trans     &trans  &trans
 &trans      &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &trans  &trans
 &trans      &trans           &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &trans  &trans
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &trans     &trans  &trans
