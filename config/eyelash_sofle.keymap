@@ -76,7 +76,7 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &kp F1     &kp F2       &kp F3     &kp F4          &kp F5             &mmv MOVE_UP     &kp F6            &kp F7             &kp F8        &kp F9                &kp F10                &kp F11
+&kp GRAVE       &kp F1     &kp F2       &kp F3     &kp F4          &kp F5             &mmv MOVE_UP     &kp F6            &kp F7             &kp F8        &kp F9                &kp F10                &kp F11
 &trans          &trans     &trans       &trans     &trans          &trans             &mmv MOVE_DOWN   &trans            &trans             &trans        &trans                &trans                 &kp F12
 &trans          &kp EXCL   &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp LG(PERCENT)    &mmv MOVE_LEFT   &kp CARET         &kp AMPERSAND      &kp LG(STAR)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
 &kp LEFT_SHIFT  &kp EQUAL  &kp MINUS    &kp PLUS   &kp LEFT_BRACE  &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI      &kp COLON             &kp BACKSLASH          &kp RIGHT_SHIFT
