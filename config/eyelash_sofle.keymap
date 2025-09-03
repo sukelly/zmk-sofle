@@ -38,19 +38,7 @@
     behaviors {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
-        };
-
-        Scrnsht4 {
-            bindings = <&kp LG(NUMBER_4)>;
-            key-positions = <39 4 57>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         Scrnsht4: Scrnsht4 {
